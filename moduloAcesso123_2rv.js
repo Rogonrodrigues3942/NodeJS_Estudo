@@ -1,0 +1,10 @@
+//modulo c - Importando arquivos - 2ª revisão
+const moduloA2 = require('./moduloA123_2rv')
+const moduloB2 = require('./moduloB123_2rv')
+console.log('Acessando informações do módulo A2')
+console.log(moduloA2.benVindo)
+console.log(moduloA2.oi)
+console.log(moduloA2.exemplo)
+console.log('\nAcessando informações do módulo B2')
+console.log(moduloB2.boaNoite())
+console.log(moduloB2.bomDia)
